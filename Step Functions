@@ -1,0 +1,16 @@
+# 🚀 AWS Step Functions
+
+Este projeto tem como objetivo demonstrar o uso do **AWS Step Functions**, um serviço da AWS que permite **orquestrar fluxos de trabalho** (workflows) compostos por múltiplos serviços, como Lambda, ECS, DynamoDB, SNS, SQS e muito mais.  
+
+O Step Functions facilita a criação de processos **automatizados, escaláveis e visuais**, definindo **máquinas de estado** que representam o fluxo de execução de uma aplicação.
+
+---
+
+## 🧩 O que são AWS Step Functions?
+
+O **AWS Step Functions** é um serviço de **orquestração serverless** que coordena vários serviços da AWS em fluxos de trabalho automatizados, chamados de *state machines*.  
+Cada etapa do fluxo (ou *state*) pode representar uma função Lambda, uma chamada de API, uma tarefa manual ou uma decisão condicional.
+
+Esses fluxos são definidos usando o formato **Amazon States Language (ASL)**, um padrão baseado em JSON.
+
+
