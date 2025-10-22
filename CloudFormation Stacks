@@ -1,0 +1,29 @@
+# 🏗️ AWS CloudFormation Stacks
+
+Este projeto tem como objetivo demonstrar o uso de **AWS CloudFormation Stacks**, uma ferramenta que permite **criar, gerenciar e versionar recursos da AWS** através de **templates declarativos** em YAML ou JSON.
+
+Com o CloudFormation, é possível automatizar a criação de infraestrutura — como instâncias EC2, funções Lambda, buckets S3, APIs e muito mais — de forma **segura, reprodutível e escalável**.
+
+---
+
+## ☁️ O que é o AWS CloudFormation?
+
+O **AWS CloudFormation** é um serviço que permite definir e provisionar a infraestrutura de nuvem da AWS usando **Infrastructure as Code (IaC)**.  
+Isso significa que toda a configuração da infraestrutura é descrita em um arquivo (template), e o CloudFormation cuida da criação, atualização e exclusão dos recursos automaticamente.
+
+Cada conjunto de recursos implantado é chamado de **Stack (pilha)**.
+
+---
+
+## 🧩 O que é uma Stack?
+
+Uma **Stack** é um conjunto de recursos da AWS que são criados e gerenciados como uma unidade.  
+Por exemplo, uma stack pode conter:
+- Um bucket S3  
+- Uma função Lambda  
+- Uma API Gateway  
+- Permissões IAM  
+
+Quando você **cria**, **atualiza** ou **deleta** uma stack, o CloudFormation aplica essas ações em todos os recursos definidos no template.
+
+
